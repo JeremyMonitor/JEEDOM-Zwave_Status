@@ -4,6 +4,14 @@
 * Sante Zwave est un script permettant de v√©rifier l'√©tat de sant√© d'un module
 * Zwave dans Jeedom
 *  
+* Appel du script :
+* 
+* - Pour le mode mise ‡ jour des Ètat :
+* /var/www/html/plugins/script/core/ressources/sante_zwave/sante_zwave.php
+* 
+* - Pour la consultation d'un Ètat d'un ID (ex: ID 5)
+* /var/www/html/plugins/script/core/ressources/sante_zwave/sante_zwave.php /ID=5
+*  
 * @param /ID=NUMERO_ID_MODULE
 * @param /DECODE (Pour d√©coder le code √©tat du module)
 *
