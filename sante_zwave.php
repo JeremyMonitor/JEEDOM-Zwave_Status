@@ -11,14 +11,21 @@
 * Dans un second temps, crÃ©er des actions infos et indiquer un ID correspondant Ã  votre module.
 * 
 * Pour toutes autres demandes, vous pouvez me contacter directement.
+*
+* TODO :
+*   - Login et mot de passe en parametre
+*   - Faire évoluer la méthode de login et mot de passe avec le token API de jeedom 
+* 
 * 
 * Auteur : Jeremy MONITOR - jeremy.monitor@mntr.fr
 * 
 * V1.0.0
+* 
 */
 
-$LOGIN = "VOTRE_LOGIN";
-$MOT_DE_PASSE = "VOTRE_MOT_DE_PASSE";
+
+$LOGIN = "";
+$MOT_DE_PASSE = "";
 
 if (! isset($DECODE)) { $DECODE="";}
     
@@ -40,6 +47,9 @@ if (isset($argv) && is_array($argv)) {
         }
     }
 }
+
+
+
 
 
 if ( empty ($argv[1]) )
