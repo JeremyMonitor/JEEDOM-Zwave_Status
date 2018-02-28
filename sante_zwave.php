@@ -14,6 +14,7 @@
 * 
 * Auteur : Jeremy MONITOR - jeremy.monitor@mntr.fr
 * 
+* V1.0.0
 */
 
 $LOGIN = "VOTRE_LOGIN";
