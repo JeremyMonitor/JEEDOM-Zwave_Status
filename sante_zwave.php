@@ -1,28 +1,28 @@
 <?php
 
 /**
-* Sante Zwave est un script permettant de vérifier l'état de santé d'un module
+* Sante Zwave est un script permettant de verifier l'etat de sante d'un module
 * Zwave dans Jeedom
 *  
 * Appel du script :
 * 
-* - Pour le mode mise é jour des état :
+* - Pour le mode mise a jour des etat :
 * /var/www/html/plugins/script/core/ressources/sante_zwave/sante_zwave.php
 * 
-* - Pour la consultation d'un état d'un ID (ex: ID 5)
+* - Pour la consultation d'un etat d'un ID (ex: ID 5)
 * /var/www/html/plugins/script/core/ressources/sante_zwave/sante_zwave.php /ID=5
 *  
 * @param /ID=NUMERO_ID_MODULE
-* @param /DECODE (Pour décoder le code état du module)
+* @param /DECODE (Pour decoder le code etat du module)
 *
-* Pour exécuter le script, dans un premier temps, créer une action script et ne pas indiquer de paramètres.
-* Dans un second temps, créer des actions infos et indiquer un ID correspondant à votre module.
+* Pour executer le script, dans un premier temps, creer une action script et ne pas indiquer de paramètres.
+* Dans un second temps, creer des actions infos et indiquer un ID correspondant à votre module.
 * 
 * Pour toutes autres demandes, vous pouvez me contacter directement.
 *
 * TODO :
 *   - Login et mot de passe en parametre
-*   - Faire évoluer la méthode de login et mot de passe avec le token API de jeedom 
+*   - Faire evoluer la methode de login et mot de passe avec le token API de jeedom 
 * 
 * 
 * Auteur : Jeremy MONITOR - jeremy.monitor@mntr.fr
