@@ -100,6 +100,12 @@ if  ( ! empty ($argv[1]) )
     $mod = json_decode($json, true);
     $modules = $mod['result'];
     $description = strtolower(utf8_decode($modules['devices'][$ID]['last_notification']['description']));
+
+    if ( $description == "ok" )
+    {
+        $RETOUR="0";
+        if ( $DECODE == "True" ) $RETOUR = "OK";
+    };
     
     if ( $description == "dead" )
     {
