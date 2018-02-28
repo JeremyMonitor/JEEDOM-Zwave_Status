@@ -6,10 +6,10 @@
 *  
 * Appel du script :
 * 
-* - Pour le mode mise à jour des état :
+* - Pour le mode mise Ã© jour des Ã©tat :
 * /var/www/html/plugins/script/core/ressources/sante_zwave/sante_zwave.php
 * 
-* - Pour la consultation d'un état d'un ID (ex: ID 5)
+* - Pour la consultation d'un Ã©tat d'un ID (ex: ID 5)
 * /var/www/html/plugins/script/core/ressources/sante_zwave/sante_zwave.php /ID=5
 *  
 * @param /ID=NUMERO_ID_MODULE
@@ -22,7 +22,7 @@
 *
 * TODO :
 *   - Login et mot de passe en parametre
-*   - Faire évoluer la méthode de login et mot de passe avec le token API de jeedom 
+*   - Faire Ã©voluer la mÃ©thode de login et mot de passe avec le token API de jeedom 
 * 
 * 
 * Auteur : Jeremy MONITOR - jeremy.monitor@mntr.fr
